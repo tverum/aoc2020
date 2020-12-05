@@ -1,4 +1,3 @@
-
 def read_expense_report(filename: str) -> list:
     """
     Read the expense report (day 1) from a file defined by filename
