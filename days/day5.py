@@ -18,7 +18,7 @@ def day_5():
     boarding_pass_ids = read_boarding_passes(filename)
 
     if not boarding_pass_ids:
-        print("main -- There was a problem reading the slope file")
+        print("main -- There was a problem reading the boarding passes")
         exit(-1)
 
     result = max(boarding_pass_ids)
